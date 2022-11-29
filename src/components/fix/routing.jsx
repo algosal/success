@@ -18,11 +18,12 @@ export function Routing() {
     <div>
     <NAV></NAV>
       <Routes>
-        <Route path="/" element={<MainText />} />
+        <Route path="/success" element={<MainText />} />
+        <Route index element={<MainText />} />
         <Route path="/perfectlaw" element={<PerfectLaw />}></Route>
         <Route path="/golden" element={<GoldenPrinciples />}></Route>
         <Route path="/fears" element={<Fears />}></Route>
-        <Route path="/main" element={<MainText />}></Route>
+        <Route path="/desires" element={<PerfectLaw />}></Route>
       </Routes>
       </div>
   );
