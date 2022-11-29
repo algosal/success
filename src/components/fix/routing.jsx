@@ -24,6 +24,7 @@ export function Routing() {
         <Route path="/golden" element={<GoldenPrinciples />}></Route>
         <Route path="/fears" element={<Fears />}></Route>
         <Route path="/desires" element={<PerfectLaw />}></Route>
+        <Route path="*" element={<MainText />}></Route>
       </Routes>
       </div>
   );

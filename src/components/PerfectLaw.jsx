@@ -1,10 +1,7 @@
 import '../App.css';
 export default function PerfectLaw() {
 
-  function myFunc(){
-    alert("We are leaving here and going to our main page"); 
-    window.open("https://salmansaeed.us")
-  }
+ 
   
   return (
     <div>
@@ -17,9 +14,8 @@ export default function PerfectLaw() {
             and to rise above all hatred, resentment or complaining; 
             for he knows that only his own can come to him, and that 
             though he be surrounded by persecutors, his enemies are but the 
-            blind instruments of a faultless retribution; and so he blamesthem not, 
+            blind instruments of a faultless retribution; and so he blames them not, 
             and calmly receives his accounts and patiently pays his moral debt. </p>
-    <button onClick={myFunc} className="button-entry">&emsp; Open Main Page &emsp;</button>
     </div>
   );
 }
