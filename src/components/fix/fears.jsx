@@ -9,17 +9,17 @@ export default function GoldenPrinciples() {
   return (
     <div>
 
-        <p><h1 style={{color:"maroon"}}>Golden Principles</h1></p>
+        <p><h1 style={{color:"maroon"}}>Deadly Fears</h1></p>
         <p className="big-font-p" style={{width:"80%", paddingLeft:"100px"}}>
-          The Principles Below must be read everyday and Followed 
+          The Fears Below must NOT be in your life
           <ul>
-            <li>Definiteness of Purpose</li>
-            <li>Mastery Over Self</li>
-            <li>Learning from Adversity</li>
-            <li>Environmental Influence</li>
-            <li>Time</li>
-            <li>Harmony</li>
-            <li>Caution</li>
+            <li>Poverty</li>
+            <li>Critisism</li>
+            <li>Ill Health</li>
+            <li>Loss of Love</li>
+            <li>Old Age</li>
+            <li>Death</li>
+            <li>Health</li>
           </ul>
            </p>
     <button onClick={myFunc} className="button-entry">&emsp; Open Main Page &emsp;</button>
