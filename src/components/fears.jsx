@@ -1,10 +1,6 @@
 import '../App.css';
 export default function Fears() {
 
-  function myFunc(){
-    alert("We are leaving here and going to our main page"); 
-    window.open("https://salmansaeed.us")
-  }
   
   return (
     <div>
@@ -22,7 +18,6 @@ export default function Fears() {
             <li>Health</li>
           </ol>
            </p>
-    <button onClick={myFunc} className="button-entry">&emsp; Open Main Page &emsp;</button>
     </div>
   );
 }
