@@ -19,6 +19,7 @@ export default function GoldenPrinciples() {
             <li>Environmental Influence</li>
             <li>Time</li>
             <li>Harmony</li>
+            <li>Caution</li>
           </ul>
            </p>
     <button onClick={myFunc} className="button-entry">&emsp; Open Main Page &emsp;</button>
