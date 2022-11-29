@@ -12,7 +12,7 @@ export default function GoldenPrinciples() {
         <p><h1 style={{color:"maroon"}}>Golden Principles</h1></p>
         <p className="big-font-p" style={{width:"80%", paddingLeft:"100px"}}>
           The Principles Below must be read everyday and Followed 
-          <ul>
+          <ol>
             <li>Definiteness of Purpose</li>
             <li>Mastery Over Self</li>
             <li>Learning from Adversity</li>
@@ -20,7 +20,7 @@ export default function GoldenPrinciples() {
             <li>Time</li>
             <li>Harmony</li>
             <li>Caution</li>
-          </ul>
+          </ol>
            </p>
     <button onClick={myFunc} className="button-entry">&emsp; Open Main Page &emsp;</button>
     </div>

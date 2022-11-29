@@ -1,5 +1,5 @@
 import '../App.css';
-export default function GoldenPrinciples() {
+export default function Fears() {
 
   function myFunc(){
     alert("We are leaving here and going to our main page"); 
@@ -12,7 +12,7 @@ export default function GoldenPrinciples() {
         <p><h1 style={{color:"maroon"}}>Deadly Fears</h1></p>
         <p className="big-font-p" style={{width:"80%", paddingLeft:"100px"}}>
           The Fears Below must NOT be in your life
-          <ul>
+          <ol>
             <li>Poverty</li>
             <li>Critisism</li>
             <li>Ill Health</li>
@@ -20,7 +20,7 @@ export default function GoldenPrinciples() {
             <li>Old Age</li>
             <li>Death</li>
             <li>Health</li>
-          </ul>
+          </ol>
            </p>
     <button onClick={myFunc} className="button-entry">&emsp; Open Main Page &emsp;</button>
     </div>

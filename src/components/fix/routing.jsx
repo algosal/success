@@ -1,6 +1,8 @@
 import { MainText } from '../maintext';
 import PerfectLaw from '../PerfectLaw';
 import NAV from './nav';
+import GoldenPrinciples from '../golden';
+import Fears from '../fears';
 
 
 import {
@@ -18,6 +20,8 @@ export function Routing() {
       <Routes>
         <Route path="/" element={<MainText />} />
         <Route path="/perfectlaw" element={<PerfectLaw />}></Route>
+        <Route path="/golden" element={<GoldenPrinciples />}></Route>
+        <Route path="/fears" element={<Fears />}></Route>
         <Route path="/main" element={<MainText />}></Route>
       </Routes>
       </div>

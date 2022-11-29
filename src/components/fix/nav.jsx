@@ -5,9 +5,11 @@ function NAV() {
         <div>
             <table style={{ width: "100%" }}>
                 <tr>
-                    <td><Link to="/"><button>Home</button></Link></td>
-                    <td><Link to="/perfectlaw"><button>Perfect Law</button></Link></td>
-                    <td><Link to="/main"><button>Main</button></Link></td>
+                    <td><Link to="/"><button className='button-width'>Home</button></Link></td>
+                    <td><Link to="/perfectlaw"><button className='button-width'>Perfect Law</button></Link></td>
+                    <td><Link to="/golden"><button className='button-width'>Golden Principles</button></Link></td>
+                    <td><Link to="/fears"><button className='button-width'>Fears</button></Link></td>
+                    <td><Link to="/main"><button className='button-width'>Basic Desires</button></Link></td>
                 </tr>
             </table>
         </div>

@@ -15,14 +15,13 @@
 
 .App-header {
   background-color: maroon;
-  min-height: 10vh;
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(40px + 2vmin);
   color: ivory;
-  font-size: xx-large;
   font-weight: bolder;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -138,4 +137,8 @@ p {
 
 .big-font-p{
   font-size: x-large;
+}
+
+.button-width{
+  min-width: 200px; 
 }
