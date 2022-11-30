@@ -15,7 +15,7 @@ export default function Fears() {
             <li>Loss of Love</li>
             <li>Old Age</li>
             <li>Death</li>
-            <li>Health</li>
+            <li>Hell</li>
           </ol>
            </p>
     </div>

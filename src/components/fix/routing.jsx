@@ -10,6 +10,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Desires from '../desires';
 
 
 export function Routing() {
@@ -23,7 +24,7 @@ export function Routing() {
         <Route path="/perfectlaw" element={<PerfectLaw />}></Route>
         <Route path="/golden" element={<GoldenPrinciples />}></Route>
         <Route path="/fears" element={<Fears />}></Route>
-        <Route path="/desires" element={<PerfectLaw />}></Route>
+        <Route path="/desires" element={<Desires />}></Route>
         <Route path="/*" element={<MainText />}></Route>
       </Routes>
       </div>
